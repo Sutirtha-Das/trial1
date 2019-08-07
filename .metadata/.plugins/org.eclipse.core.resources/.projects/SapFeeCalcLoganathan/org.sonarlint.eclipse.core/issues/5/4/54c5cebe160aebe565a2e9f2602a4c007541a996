@@ -1,0 +1,11 @@
+
+€squid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(îäÓàÿÿÿÿÿ8öÑÁÞ¨-HŸ3RBLOCKERZBUG
+†squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºÂXHŽ3RMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8öÑÁÞ¨-H¡3RMAJORZ
+CODE_SMELL
+|squid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Æøîç8¯®¿Þ¨-H˜3RMINORZ
+CODE_SMELL
+wsquid:S2130&">Use "Double.parseDouble" for this string-to-double conversion.(³¨£Šúÿÿÿÿ8öÑÁÞ¨-H¢3RMINORZ
+CODE_SMELL

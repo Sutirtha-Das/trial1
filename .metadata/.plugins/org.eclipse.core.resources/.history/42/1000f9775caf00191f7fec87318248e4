@@ -1,0 +1,21 @@
+package src.codeChef;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String str1 = "abcd";
+		String str2 = "adbc";
+		
+		
+		if(str1.length() != str2.length()){
+			System.out.println("String1 and String2 are not anagrams");
+		}
+		
+		
+
+	}
+
+}

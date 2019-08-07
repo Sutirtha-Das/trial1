@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package decorator;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public abstract class Pizza {
+
+}

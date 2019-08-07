@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package factory;
+
+/**
+ * @author Sutirtha
+ * @param <T>
+ * @param <S>
+ *
+ */
+public class FactoryProvider<T, S> extends AbstractFactory<T, S>{
+
+	@Override
+	public AbstractFactory<T, S> createFactory(int sides, String color) {
+		AbstractFactory.T = PolygonFactory.getPolygon(sides);
+		Color colour = ColorFactory.getColor(color);
+		return AbstractFactory<FactoryProvider.T, FactoryProvider.S>;
+		
+	}
+
+}

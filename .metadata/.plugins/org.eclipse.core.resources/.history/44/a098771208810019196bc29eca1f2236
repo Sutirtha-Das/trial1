@@ -1,0 +1,7 @@
+package factory;
+
+public abstract class AbstractFactory<T,S> {
+	T obj1;
+	S obj2;
+	public abstract AbstractFactory<T, S> createFactory(int sides, String color);
+}

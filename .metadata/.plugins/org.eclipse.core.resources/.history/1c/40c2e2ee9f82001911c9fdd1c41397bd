@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package decorator;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class Margherita extends Pizza {
+
+	/* (non-Javadoc)
+	 * @see decorator.Pizza#getCost()
+	 */
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

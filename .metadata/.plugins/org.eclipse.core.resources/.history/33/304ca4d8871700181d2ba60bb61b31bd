@@ -1,0 +1,13 @@
+package corejava;
+
+import java.lang.reflect.Method;
+
+public class RunClass {
+
+	
+	public static void main(String[] args){
+		Student s = new Student();
+		Class c = s.getClass();
+		System.out.println(c.getName());
+	}
+}

@@ -1,0 +1,6 @@
+package proxy;
+
+public interface FileInterface {
+	
+	public void writeOutputToFile(String s);
+}

@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package com.rabobank.com.rabobank.config;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author Sutirtha
+ *
+ */
+@Configuration
+@ConfigurationProperties
+public class RabobankConfig {
+	
+	@Value("${read.csvfile.path}")
+	private String readCSVSourcefilePath;
+	
+	@Value("${read.xmlfile.path}")
+	private String readXMLSourcefilePath;
+	
+	@Value("${write.output.path}")
+	private String outputFilePath;
+	
+	public String getReadCSVSourcefilePath() {
+		return readCSVSourcefilePath;
+	}
+	public void setReadCSVSourcefilePath(String readCSVSourcefilePath) {
+		this.readCSVSourcefilePath = readCSVSourcefilePath;
+	}
+	public String getReadXMLSourcefilePath() {
+		return readXMLSourcefilePath;
+	}
+	public void setReadXMLSourcefilePath(String readXMLSourcefilePath) {
+		this.readXMLSourcefilePath = readXMLSourcefilePath;
+	}
+	public String getOutputFilePath() {
+		return outputFilePath;
+	}
+	public void setOutputFilePath(String outputFilePath) {
+		this.outputFilePath = outputFilePath;
+	}
+	
+	
+}

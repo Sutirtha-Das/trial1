@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package proxy;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class FileInterfaceImpl implements FileInterface {
+
+	/* (non-Javadoc)
+	 * @see proxy.FileInterface#writeOutputToFile(java.lang.String)
+	 */
+	@Override
+	public void writeOutputToFile(String s) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

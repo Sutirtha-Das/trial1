@@ -1,0 +1,15 @@
+import java.util.HashMap;
+
+
+
+public class LearnCollection {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, String> myFirstMap = new HashMap<String, String>();
+	}
+
+}

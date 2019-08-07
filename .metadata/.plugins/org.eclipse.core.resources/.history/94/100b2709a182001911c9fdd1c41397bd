@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package decorator;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class Jalapeno extends ToppingDecorator {
+
+	/* (non-Javadoc)
+	 * @see decorator.ToppingDecorator#getDescription()
+	 */
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see decorator.Pizza#getCost()
+	 */
+	@Override
+	public int getCost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

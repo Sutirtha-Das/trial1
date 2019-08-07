@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="triangle" class="com.LearnSpring.Triangle">
+		<!--Looks for a constructor with two arguments. index=0 for the first parameter
+		and index=1 for the 2nd parameter  -->
+		<constructor-arg index="0" value="Isosceles"></constructor-arg>
+		<constructor-arg index="1" value="25"></constructor-arg>
+		<!-- Injecting custom objects -->
+		<property name="cordA" ref= "firstCoordinate">
+		<!-- Validates the bean is present. If not, it throws an error
+		<idref local="firstCoordinate"/> -->
+			
+		</property>
+		<property name="cordB" ref="secondCoordinate"></property>
+		<!-- Creating inner beans -->
+		<property name="cordC">
+			<bean class="com.LearnSpring.Coordinates">
+				<property name="x" value="0"></property>
+				<property name="y" value="25"></property>
+			</bean>
+		</property>
+		
+		<property name="coordinateList">
+			<list>
+				<ref bean="firstCoordinate"/>
+				<ref bean="secondCoordinate"/>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="firstCoordinate" class="com.LearnSpring.Coordinates">
+		<property name="x" value="0"></property>
+		<property name="y" value="0"></property>
+	</bean>
+	
+	<bean id="secondCoordinate" class="com.LearnSpring.Coordinates">
+		<property name="x" value="20"></property>
+		<property name="y" value="0"></property>
+	</bean>
+	
+	<!-- Alias creates a reference to the bean with id triangle -->
+	<alias name="triangle" alias="triangle-alias"/>
+
+</beans>

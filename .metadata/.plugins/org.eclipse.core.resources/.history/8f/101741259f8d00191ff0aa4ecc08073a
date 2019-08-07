@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.rabobank.com.rabobank.service;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public interface RaboBankValidationProcessor {
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.rabobank.com.rabobank.config;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class RabobankConfig {
+
+}

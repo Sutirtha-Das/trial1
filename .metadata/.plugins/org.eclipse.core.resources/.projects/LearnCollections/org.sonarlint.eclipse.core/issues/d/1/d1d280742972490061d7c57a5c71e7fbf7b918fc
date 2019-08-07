@@ -1,0 +1,34 @@
+
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªñšÇúÿÿÿÿHŽ(RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(§ûÅÈûÿÿÿÿ8–¨êÖ -H‘(RMAJORZ
+CODE_SMELL
+j
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(Ç†ÃøÿÿÿÿHŒ(RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(äêÇ›ýÿÿÿÿ8–¨êÖ -H(RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì¨¼žÿÿÿÿÿHŠ(RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(’§¿þÿÿÿÿHˆ(RMAJORZ
+CODE_SMELL
+l
+squid:S1062"9Replace this use of System.out or System.err by a logger.(æ×ü¦8–¨êÖ -H“(RMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÎÍìH‹(RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ó¼–¾8Ü·’š›-H‰(RMAJORZ
+CODE_SMELL
+q
+squid:S106("9Replace this use of System.out or System.err by a logger.(¤¸¤ûÿÿÿÿ8–¨êÖ -H’(RMAJORZ
+CODE_SMELL
+csquid:S1135	"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH(RINFOZ
+CODE_SMELL
+l
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ôƒê•8«Ó®š›-H(RMAJORZ
+CODE_SMELL

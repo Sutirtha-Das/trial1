@@ -1,0 +1,30 @@
+package com.BinaryTrees;
+
+public class LearnArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr= new int[]{1,2,3,4,5,6};
+		printArray(arr);
+	}
+	public static void printArray(int arr[]){
+		for(int i=0;i<arr.length;i++){
+			System.out.print(arr[i]);
+		}
+	}
+	public static void leftRotate(int arr[],int d, int n){
+		for(int j=0;j<d;j++){
+			leftRotateByN(arr, n);
+			printArray(arr);
+		}
+	}
+	public static void leftRotateByN(int arr[],int n){
+		int i;
+		int temp = arr[0];
+		for(i=0;i<arr.length;i++){
+			arr[i] = arr[i+1];
+		}
+		arr[i]=temp;
+	}
+}

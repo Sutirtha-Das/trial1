@@ -1,0 +1,26 @@
+package singleton;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for(int i=0;i<3;i++){
+			Runnable r = () ->{
+				Singleton singleton = Singleton.getInstance();
+				System.out.println("Singleton:"+singleton);
+			};
+			new Thread(r).start();
+		}
+		
+		for(int i=0;i<3;i++){
+			Runnable r = () ->{
+				ThreadSafeSingleton singleton = ThreadSafeSingleton.getInstance();
+				System.out.println("ThreadSafeSingleton:"+singleton);
+			};
+			new Thread(r).start();
+		}
+		
+	}
+
+}

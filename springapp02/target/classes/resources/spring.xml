@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context = "http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+         https://www.springframework.org/schema/context
+   			https://www.springframework.org/schema/context/spring-context.xsd">
+       
+       <context:annotation-config/>
+       <!--  Activating Annotation config -->
+       
+        <!-- Bean to create objects using instance Bean Factory -->
+        <bean id="beanFactory" 
+        class="springapp01.springapp02.factory.BeanFactory">
+        </bean>
+        
+        <!-- <bean id = "secondBean" class="springapp01.springapp02.bean.SecondBean">
+        	<property name="name" value="Sutirtha"></property>
+        </bean> -->
+        
+        <!-- 
+        Beans can be created by specifying value in name attribute which takes
+        multiple values separated by space or comma
+        <bean name = "secondBean1 secondBean2" class="springapp01.springapp02.bean.SecondBean">
+        	<property name="name" value="Sutirtha"></property>
+        </bean> -->
+        
+        <!-- Configuring both id and name -->
+         <bean id = "secondBean" name="secondBeanName" 
+         class="springapp01.springapp02.bean.SecondBean"
+         scope="thread"
+         factory-bean="beanFactory"
+         factory-method="getSecondBeanInstance">
+        	<property name="name" value="Sutirtha"></property>
+        </bean> 
+        
+        <!-- Configuring custom scope -->
+        <bean id="threadScope" class="springapp01.springapp02.scope.ThreadScope">
+        </bean>
+        <bean id="scopeConfigurer" class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        	<property name="scopes">
+        		<map>
+        			<entry key="thread" value-ref="threadScope"></entry>
+        		</map>
+        	</property>
+        </bean>
+        
+        
+        <!-- Bean Using static Factory -->
+        <bean id="thirdBean" 
+        class="springapp01.springapp02.bean.ThirdBean"
+        factory-method="createInstance">
+        </bean>
+        <!-- Bean instantiated using beanFactory -->
+        <bean id="fourthBean"
+        class="springapp01.springapp02.bean.FourthBean"
+        factory-bean="beanFactory"
+        factory-method="getFourthBeanInstance"></bean>
+        
+        <!-- Initialization and destruction of bean -->
+        <bean id="fifthBean"
+        class="springapp01.springapp02.bean.FifthBean"
+        init-method="init"
+        destroy-method="destroy"></bean>
+        
+         <bean id="sixthBean"
+        class="springapp01.springapp02.bean.SixthBean"
+        ></bean>
+        
+        
+</beans>        

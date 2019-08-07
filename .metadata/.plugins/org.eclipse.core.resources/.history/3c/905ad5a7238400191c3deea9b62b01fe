@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package factory;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class PolygonFactory {
+	
+	public static Polygon getPolygon(int sides){
+		if(sides == 3){
+			return new Triangle();
+		}
+		else if(sides == 4){
+			return new Square();
+		}
+		else if(sides == 5){
+			return new Pentagon();
+		}else{
+			return null;
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package factory;
+
+public abstract class AbstractFactory<T,S> {
+	public  Polygon T;
+	
+	public abstract AbstractFactory<T, S> createFactory(int sides, String color);
+}

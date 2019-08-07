@@ -1,0 +1,6 @@
+package factory;
+
+public interface AbstractFactory<T> {
+	 
+	public Object createFactory(int sides, String color);
+}

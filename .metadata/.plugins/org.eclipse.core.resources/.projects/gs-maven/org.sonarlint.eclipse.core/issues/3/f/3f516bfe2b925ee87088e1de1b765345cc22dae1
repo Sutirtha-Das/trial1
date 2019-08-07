@@ -1,0 +1,13 @@
+
+zsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ü¯ŒßşÿÿÿÿHï$RMINORZ
+CODE_SMELL
+zsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(»ÕËøÿÿÿÿHğ$RMINORZ
+CODE_SMELL
+“squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "tedVOList".(É†¹ÑüÿÿÿÿHñ$RMINORZ
+CODE_SMELL
+‘squid:S1488$"dImmediately return this expression instead of assigning it to the temporary variable "subTedVOList".(Úª‚şHò$RMINORZ
+CODE_SMELL
+ˆsquid:UselessImportCheck"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.(Ç¨ÿäûÿÿÿÿHó$RMINORZ
+CODE_SMELL
+ˆsquid:UselessImportCheck"NRemove this unused import 'org.springframework.beans.support.PagedListHolder'.(ß¤í˜Hô$RMINORZ
+CODE_SMELL

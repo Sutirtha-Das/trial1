@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.rabobank.com.rabobank.processor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.rabobank.com.rabobank.config.RabobankConfig;
+import com.rabobank.com.rabobank.model.InvalidRecords;
+
+/**
+ * @author Sutirtha
+ *
+ */
+@RestController
+@RequestMapping("processReport")
+public class RaboBankReportProcessor {
+	
+	@Autowired
+	RabobankConfig config;
+	
+	@RequestMapping("/validateRecords")
+	public List<InvalidRecords> validateTransactionRecords(){
+		List<InvalidRecords> recordList = new ArrayList<InvalidRecords>();
+		
+		return recordList;
+	}
+}

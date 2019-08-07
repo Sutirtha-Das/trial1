@@ -1,0 +1,4 @@
+server.port=8090
+
+source.file.path=C:/Users/Sutirtha/Desktop/TransactionDetails.csv
+output.file.path=C:/Users/Sutirtha/Desktop/TransactionReport.csv
