@@ -1,8 +1,0 @@
-package proxy;
-
-import java.io.IOException;
-
-public interface FileInterface {
-	
-	public void writeOutputToFile(String s) throws IOException;
-}
