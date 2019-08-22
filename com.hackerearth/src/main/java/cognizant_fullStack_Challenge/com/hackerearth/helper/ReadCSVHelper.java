@@ -103,6 +103,7 @@ public class ReadCSVHelper {
 	        	}
 	        	count++;
 	        }
+	        System.out.println("Total Count of Records:"+count);
 		}
 		catch(Exception e){
 			e.printStackTrace();
