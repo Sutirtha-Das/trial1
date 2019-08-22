@@ -1,13 +1,0 @@
-
-{squid:S00101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(­İË¨HÑ#RMINORZ
-CODE_SMELL
-ˆsquid:S00116"NRename this field "_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÿ€àùÿÿÿÿ8ïÛ‘—›-HÙ#RMINORZ
-CODE_SMELL
-‹squid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¶ÌÁúÿÿÿÿ8ßä’—›-HÜ#RMINORZ
-CODE_SMELL
-ˆsquid:S00100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¶ÌÁúÿÿÿÿ8ßä’—›-HÛ#RMINORZ
-CODE_SMELL
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯•ëùÿÿÿÿHÒ#RMINORZ
-CODE_SMELL
-‚squid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¹O8ßä’—›-HÚ#RMINORZ
-CODE_SMELL

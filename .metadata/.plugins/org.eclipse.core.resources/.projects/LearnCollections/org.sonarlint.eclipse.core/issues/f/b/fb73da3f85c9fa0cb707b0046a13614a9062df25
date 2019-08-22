@@ -1,80 +1,0 @@
-
-jsquid:S1197"8Move the array designator from the variable to the type.(õêûËúÿÿÿÿH¿$RMINORZ
-CODE_SMELL
-esquid:S1197 "8Move the array designator from the variable to the type.(”ıŠÔHÀ$RMINORZ
-CODE_SMELL
-jsquid:S1197&"8Move the array designator from the variable to the type.(§¼™ûÿÿÿÿHÁ$RMINORZ
-CODE_SMELL
-dsquid:S1197/"8Move the array designator from the variable to the type.(¨ëüAHÂ$RMINORZ
-CODE_SMELL
-esquid:S1197N"8Move the array designator from the variable to the type.(ÜŸí·HÃ$RMINORZ
-CODE_SMELL
-~squid:S3008"LRename this field "A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óú×ıÿÿÿÿHÄ$RMINORZ
-CODE_SMELL
-~squid:S3008"QRename this field "Aminus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ëò°HÅ$RMINORZ
-CODE_SMELL
-ysquid:S3008	"LRename this field "B" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öû£¤HÆ$RMINORZ
-CODE_SMELL
-ƒsquid:S3008
-"QRename this field "Bminus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‰¹«úÿÿÿÿHÇ$RMINORZ
-CODE_SMELL
-ysquid:S3008"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ò±öHÈ$RMINORZ
-CODE_SMELL
-ƒsquid:S3008"QRename this field "Cminus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı½¨ìüÿÿÿÿHÉ$RMINORZ
-CODE_SMELL
-asquid:S1066X"/Merge this if statement with the enclosing one.(Öˆ÷ÅşÿÿÿÿHÊ$RMAJORZ
-CODE_SMELL
-\squid:S1444"'Make this "public static A" field final(Óú×ıÿÿÿÿHË$RMINORZVULNERABILITY
-\squid:S1444",Make this "public static Aminus" field final(¹ëò°HÌ$RMINORZVULNERABILITY
-Wsquid:S1444	"'Make this "public static B" field final(Öû£¤HÍ$RMINORZVULNERABILITY
-asquid:S1444
-",Make this "public static Bminus" field final(›‰¹«úÿÿÿÿHÎ$RMINORZVULNERABILITY
-Wsquid:S1444"'Make this "public static C" field final(¼Ò±öHÏ$RMINORZVULNERABILITY
-asquid:S1444",Make this "public static Cminus" field final(ı½¨ìüÿÿÿÿHĞ$RMINORZVULNERABILITY
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡“îüÿÿÿÿHÑ$RMAJORZ
-CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(é¼‘üÿÿÿÿHÒ$RMAJORZ
-CODE_SMELL
-}squid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(™‚›¼úÿÿÿÿHÓ$RMAJORZ
-CODE_SMELL
-}squid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(€âÓ‡ùÿÿÿÿHÔ$RMAJORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(ô¯ëøÿÿÿÿHÕ$RMAJORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹œâèûÿÿÿÿHÖ$RMAJORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿH×$RMAJORZ
-CODE_SMELL
-e
-squid:S106F"9Replace this use of System.out or System.err by a logger.(òòÚ¥HØ$RMAJORZ
-CODE_SMELL
-e
-squid:S106I"9Replace this use of System.out or System.err by a logger.(½âàHÙ$RMAJORZ
-CODE_SMELL
-e
-squid:S106h"9Replace this use of System.out or System.err by a logger.(†™ñ‹HÚ$RMAJORZ
-CODE_SMELL
-™"squid:ClassVariableVisibilityCheck"MMake A a static final constant or non-public and provide accessors if needed.(Óú×ıÿÿÿÿHÛ$RMINORZVULNERABILITY
-™"squid:ClassVariableVisibilityCheck"RMake Aminus a static final constant or non-public and provide accessors if needed.(¹ëò°HÜ$RMINORZVULNERABILITY
-”"squid:ClassVariableVisibilityCheck	"MMake B a static final constant or non-public and provide accessors if needed.(Öû£¤Hİ$RMINORZVULNERABILITY
-"squid:ClassVariableVisibilityCheck
-"RMake Bminus a static final constant or non-public and provide accessors if needed.(›‰¹«úÿÿÿÿHŞ$RMINORZVULNERABILITY
-”"squid:ClassVariableVisibilityCheck"MMake C a static final constant or non-public and provide accessors if needed.(¼Ò±öHß$RMINORZVULNERABILITY
-"squid:ClassVariableVisibilityCheck"RMake Cminus a static final constant or non-public and provide accessors if needed.(ı½¨ìüÿÿÿÿHà$RMINORZVULNERABILITY
-csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHá$RINFOZ
-CODE_SMELL
-Zsquid:S1481"(Remove this unused "arr" local variable.(ÌâŸóùÿÿÿÿHâ$RMINORZ
-CODE_SMELL
-]squid:S1481"+Remove this unused "newArr" local variable.(°¡ññıÿÿÿÿHã$RMINORZ
-CODE_SMELL
-Zsquid:S1172&"(Remove this unused method parameter "n".(§¼™ûÿÿÿÿHä$RMAJORZ
-CODE_SMELL
-lsquid:S1854":Remove this useless assignment to local variable "newArr".(°¡ññıÿÿÿÿHå$RMAJORZ
-CODE_SMELL
-isquid:S1854"7Remove this useless assignment to local variable "arr".(ÌâŸóùÿÿÿÿHæ$RMAJORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑÂşàHç$RMINORZ
-CODE_SMELL

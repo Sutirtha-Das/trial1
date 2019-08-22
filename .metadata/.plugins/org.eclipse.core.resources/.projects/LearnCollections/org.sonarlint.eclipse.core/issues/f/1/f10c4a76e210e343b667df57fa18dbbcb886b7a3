@@ -1,7 +1,0 @@
-
-csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH¼$RINFOZ
-CODE_SMELL
-¶squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’“ÍÓúÿÿÿÿH½$RCRITICALZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑÂþàH¾$RMINORZ
-CODE_SMELL

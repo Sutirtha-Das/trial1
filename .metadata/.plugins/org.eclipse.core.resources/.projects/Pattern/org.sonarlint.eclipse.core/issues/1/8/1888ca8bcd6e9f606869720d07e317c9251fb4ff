@@ -1,8 +1,0 @@
-
-—squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©ß˜Öûÿÿÿÿ8€Ïä·°-H˜;RCRITICALZ
-CODE_SMELL
-€squid:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(îÞÀ‘ûÿÿÿÿ8áåì·°-H›;RBLOCKERZBUG
-zsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(©ß˜Öûÿÿÿÿ8€Ïä·°-H—;RMINORZ
-CODE_SMELL
-csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH•;RINFOZ
-CODE_SMELL

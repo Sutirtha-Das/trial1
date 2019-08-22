@@ -1,15 +1,0 @@
-
-usquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÆøîçHÅ;RMINORZ
-CODE_SMELL
-ysquid:S2095!"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(È‘ðüýÿÿÿÿHÆ;RBLOCKERZBUG
-csquid:S1135B"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÇ;RINFOZ
-CODE_SMELL
-Vsquid:S1481"")Remove this unused "line" local variable.(îž€HÈ;RMINORZ
-CODE_SMELL
-esquid:S1854""8Remove this useless assignment to local variable "line".(îž€HÉ;RMAJORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øïåÅHÊ;RMINORZ
-CODE_SMELL
-Xsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHË;RMINORZVULNERABILITY
-psquid:S21306">Use "Double.parseDouble" for this string-to-double conversion.(³¨£ŠúÿÿÿÿHÌ;RMINORZ
-CODE_SMELL

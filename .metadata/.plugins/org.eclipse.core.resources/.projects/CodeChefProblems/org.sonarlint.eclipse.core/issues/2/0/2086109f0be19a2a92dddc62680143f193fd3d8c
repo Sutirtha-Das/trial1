@@ -1,44 +1,0 @@
-
-Tsquid:S1659Q"'Declare "bytesRead" on a separate line.(„±ŒƒHÂ2RMINORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(•ØäHÃ2RMAJORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ë¹º½ÿÿÿÿÿHÄ2RMAJORZ
-CODE_SMELL
-Lsquid:S1659d"Declare "c" on a separate line.(®ŞÚHÅ2RMINORZ
-CODE_SMELL
-‰squid:S00116N"VRename this field "BUFFER_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¹ƒàüÿÿÿÿHÆ2RMINORZ
-CODE_SMELL
-z$squid:AssignmentInSubExpressionCheck¦".Extract the assignment out of this expression.(•Ö¼ÙıÿÿÿÿHÇ2RMAJORZ
-CODE_SMELL
-Ssquid:S1170N"!Make this final field static too.(ê¹ƒàüÿÿÿÿHÈ2RMINORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ĞÄìÔHÉ2RMINORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(îíì×HÊ2RMAJORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(úî¤¼HË2RMAJORZ
-CODE_SMELL
-¶%squid:RedundantThrowsDeclarationCheck"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(ù×©úÿÿÿÿHÌ2RMINORZ
-CODE_SMELL
-z$squid:AssignmentInSubExpressionCheck±".Extract the assignment out of this expression.(¡·íºşÿÿÿÿHÍ2RMAJORZ
-CODE_SMELL
-Osquid:S1659•"!Declare "div" on a separate line.(†‡Ä‘HÎ2RMINORZ
-CODE_SMELL
-…squid:ModifiersOrderCheckN"EReorder the modifiers to comply with the Java Language Specification.(ê¹ƒàüÿÿÿÿHÏ2RMINORZ
-CODE_SMELL
-jsquid:S1197="8Move the array designator from the variable to the type.(½Ëë·üÿÿÿÿHĞ2RMINORZ
-CODE_SMELL
-hsquid:S3516"9Refactor this method to not always return the same value.(“ƒÁ½HÑ2RBLOCKERZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÊüÌíHÒ2RMAJORZ
-CODE_SMELL
-„squid:S00117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü··õüÿÿÿÿHÓ2RMINORZ
-CODE_SMELL
-esquid:S1197"8Move the array designator from the variable to the type.(†Õ™HÔ2RMINORZ
-CODE_SMELL

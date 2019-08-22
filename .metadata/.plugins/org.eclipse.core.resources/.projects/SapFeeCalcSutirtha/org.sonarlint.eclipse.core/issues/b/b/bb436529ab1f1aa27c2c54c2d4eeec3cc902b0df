@@ -1,24 +1,0 @@
-
-{squid:UnusedPrivateMethodr";Remove this unused private "writeTransactionReport" method.(¥ÃÜÅüÿÿÿÿH†;RMAJORZ
-CODE_SMELL
-ysquid:S2095y"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(îŞÀ‘ûÿÿÿÿH‡;RBLOCKERZBUG
-ysquid:S2095K"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(îŞÀ‘ûÿÿÿÿHˆ;RBLOCKERZBUG
-j
-squid:S1069"9Replace this use of System.out or System.err by a logger.(¢ÂÎ–øÿÿÿÿH‰;RMAJORZ
-CODE_SMELL
-Ysquid:S1602X",Remove useless curly braces around statement(ŞâˆÕHŠ;RMINORZ
-CODE_SMELL
-qsquid:S18546"?Remove this useless assignment to local variable "orderedList".(éæĞùÿÿÿÿH‹;RMAJORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£Ûÿ™HŒ;RMINORZ
-CODE_SMELL
-^squid:S1153c"1Directly append the argument of String.valueOf().(Å¿éÉH;RMINORZ
-CODE_SMELL
-_squid:S1153"1Directly append the argument of String.valueOf().(Å¿éÉH;RMINORZ
-CODE_SMELL
-Xsquid:S1148g"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH;RMINORZVULNERABILITY
-Ysquid:S1148”"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH;RMINORZVULNERABILITY
-v
-squid:S899G"BDo something with the "boolean" value returned by "createNewFile".(Ğ’ÍùÿÿÿÿH‘;RMINORZVULNERABILITY
-v
-squid:S899u"BDo something with the "boolean" value returned by "createNewFile".(Ğ’ÍùÿÿÿÿH’;RMINORZVULNERABILITY

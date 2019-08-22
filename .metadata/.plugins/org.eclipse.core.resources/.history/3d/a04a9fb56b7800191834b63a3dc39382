@@ -1,5 +1,0 @@
-server.port=8090
-
-read.file.path=C:/Users/Sutirtha/Desktop/TransactionDetails.csv
-write.file.path=C:/Users/Sutirtha/Desktop/TransactionReport.csv
-

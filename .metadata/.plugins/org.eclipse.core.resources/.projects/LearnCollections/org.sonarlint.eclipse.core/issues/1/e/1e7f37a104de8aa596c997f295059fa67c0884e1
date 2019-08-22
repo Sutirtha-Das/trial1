@@ -1,87 +1,0 @@
-
-j
-squid:S106("9Replace this use of System.out or System.err by a logger.(‰Ë—úûÿÿÿÿHÕRMAJORZ
-CODE_SMELL
-e
-squid:S1063"9Replace this use of System.out or System.err by a logger.(¢æ˜ÎHÖRMAJORZ
-CODE_SMELL
-fsquid:S1481["4Remove this unused "leftleftSubTree" local variable.(·ÍÝúþÿÿÿÿH×RMINORZ
-CODE_SMELL
-vsquid:S11923"FDefine a constant instead of duplicating this literal "Head:" 3 times.(¢æ˜ÎHØRCRITICALZ
-CODE_SMELL
-j
-squid:S1064"9Replace this use of System.out or System.err by a logger.(£±ìÏüÿÿÿÿHÙRMAJORZ
-CODE_SMELL
-esquid:S1197e"8Move the array designator from the variable to the type.(ôö›×HÚRMINORZ
-CODE_SMELL
-xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ñ©£HÛRMAJORZ
-CODE_SMELL
-e
-squid:S106S"9Replace this use of System.out or System.err by a logger.(½ÂÔ¤HÜRMAJORZ
-CODE_SMELL
-j
-squid:S106_"9Replace this use of System.out or System.err by a logger.(«˜Ó…ùÿÿÿÿHÝRMAJORZ
-CODE_SMELL
-usquid:S1854["CRemove this useless assignment to local variable "leftleftSubTree".(·ÍÝúþÿÿÿÿHÞRMAJORZ
-CODE_SMELL
-Vsquid:S1481")Remove this unused "arr2" local variable.(±ôÀ HßRMINORZ
-CODE_SMELL
-e
-squid:S1066"9Replace this use of System.out or System.err by a logger.(‹éåÂHàRMAJORZ
-CODE_SMELL
-e
-squid:S1062"9Replace this use of System.out or System.err by a logger.(²–»òHáRMAJORZ
-CODE_SMELL
-e
-squid:S106@"9Replace this use of System.out or System.err by a logger.(¢ÝÈHâRMAJORZ
-CODE_SMELL
-}squid:S11499"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ó¨³HãRMAJORZ
-CODE_SMELL
-gsquid:S1481\"5Remove this unused "leftRightSubTree" local variable.(¯¥¸ÙùÿÿÿÿHäRMINORZ
-CODE_SMELL
-e
-squid:S106)"9Replace this use of System.out or System.err by a logger.(Šù— HåRMAJORZ
-CODE_SMELL
-vsquid:S1854\"DRemove this useless assignment to local variable "leftRightSubTree".(¯¥¸ÙùÿÿÿÿHæRMAJORZ
-CODE_SMELL
-Gsquid:S1220""Move this file to a named package.HçRMINORZ
-CODE_SMELL
-j
-squid:S106'"9Replace this use of System.out or System.err by a logger.(¹â‚ÚýÿÿÿÿHèRMAJORZ
-CODE_SMELL
-e
-squid:S106B"9Replace this use of System.out or System.err by a logger.(¢ÝÈHéRMAJORZ
-CODE_SMELL
-wsquid:S1854^"ERemove this useless assignment to local variable "rightRightSubTree".(Ý±ÈüúÿÿÿÿHêRMAJORZ
-CODE_SMELL
-j
-squid:S106P"9Replace this use of System.out or System.err by a logger.( üöëÿÿÿÿÿHëRMAJORZ
-CODE_SMELL
-e
-squid:S106?"9Replace this use of System.out or System.err by a logger.(ë¢¾ˆHìRMAJORZ
-CODE_SMELL
-vsquid:S1854]"DRemove this useless assignment to local variable "rightLeftSubTree".(ó¶ß«üÿÿÿÿHíRMAJORZ
-CODE_SMELL
-e
-squid:S106&"9Replace this use of System.out or System.err by a logger.(Šù— HîRMAJORZ
-CODE_SMELL
-j
-squid:S106G"9Replace this use of System.out or System.err by a logger.(§ý¸ÔûÿÿÿÿHïRMAJORZ
-CODE_SMELL
-j
-squid:S106p"9Replace this use of System.out or System.err by a logger.(­Êæ°ýÿÿÿÿHðRMAJORZ
-CODE_SMELL
-gsquid:S1481]"5Remove this unused "rightLeftSubTree" local variable.(ó¶ß«üÿÿÿÿHñRMINORZ
-CODE_SMELL
-hsquid:S1481^"6Remove this unused "rightRightSubTree" local variable.(Ý±ÈüúÿÿÿÿHòRMINORZ
-CODE_SMELL
-e
-squid:S106""9Replace this use of System.out or System.err by a logger.(‘˜¬HóRMAJORZ
-CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œÀä²þÿÿÿÿHôRMAJORZ
-CODE_SMELL
-esquid:S1854"8Remove this useless assignment to local variable "arr2".(±ôÀ HõRMAJORZ
-CODE_SMELL
-e
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ë¢¾ˆHöRMAJORZ
-CODE_SMELL

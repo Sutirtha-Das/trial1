@@ -1,14 +1,0 @@
-
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(·²î8ø¶ø°-Hß:RMINORZ
-CODE_SMELL
-‰squid:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¯áÑë8ø¶ø°-HŞ:RBLOCKERZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(àŸ”‡8ø¶ø°-Hà:RMINORZ
-CODE_SMELL
-|squid:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(¯áÑë8ø¶ø°-Há:RMINORZ
-CODE_SMELL
-l
-squid:S106("9Replace this use of System.out or System.err by a logger.(Å®üÉ8ƒ›Õ²°-Hõ:RMAJORZ
-CODE_SMELL
-`squid:S1612(",Replace this lambda with a method reference.(Å®üÉ8ƒ›Õ²°-Hö:RMINORZ
-CODE_SMELL

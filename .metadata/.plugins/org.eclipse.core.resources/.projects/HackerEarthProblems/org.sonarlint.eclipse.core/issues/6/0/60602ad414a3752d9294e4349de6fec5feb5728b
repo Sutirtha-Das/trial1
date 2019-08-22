@@ -1,78 +1,0 @@
-
-³%squid:RedundantThrowsDeclarationCheck
-"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿ØHÿRMINORZ
-CODE_SMELL
-i"squid:SwitchLastCaseIsDefaultCheck6""Add a default case to this switch.(®Ã×ãH€RCRITICALZ
-CODE_SMELL
-Nsquid:S1659d"!Declare "con" on a separate line.(„§ò„HRMINORZ
-CODE_SMELL
-jsquid:S1197"8Move the array designator from the variable to the type.(Ğˆ’ÕüÿÿÿÿH‚RMINORZ
-CODE_SMELL
-‹squid:S2293`"YReplace the type specification in this constructor call with the diamond operator ("<>").(½—•úÿÿÿÿHƒRMINORZ
-CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âäÅàÿÿÿÿÿH„RMAJORZ
-CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”Ö•¯ûÿÿÿÿH…RMAJORZ
-CODE_SMELL
-xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚ùÃH†RMAJORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(»ŠãÚúÿÿÿÿH‡RMAJORZ
-CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ç¯½‡HˆRMAJORZ
-CODE_SMELL
-e
-squid:S106-"9Replace this use of System.out or System.err by a logger.(Ù©È±H‰RMAJORZ
-CODE_SMELL
-e
-squid:S1068"9Replace this use of System.out or System.err by a logger.(Ëªô®HŠRMAJORZ
-CODE_SMELL
-j
-squid:S106;"9Replace this use of System.out or System.err by a logger.(Úú½€ûÿÿÿÿH‹RMAJORZ
-CODE_SMELL
-d
-squid:S106>"9Replace this use of System.out or System.err by a logger.(ÁşÃ!HŒRMAJORZ
-CODE_SMELL
-j
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ùÑùóüÿÿÿÿHRMAJORZ
-CODE_SMELL
-d
-squid:S106D"9Replace this use of System.out or System.err by a logger.(‹ï‡VHRMAJORZ
-CODE_SMELL
-j
-squid:S106G"9Replace this use of System.out or System.err by a logger.(§¦§×úÿÿÿÿHRMAJORZ
-CODE_SMELL
-j
-squid:S106J"9Replace this use of System.out or System.err by a logger.(Ç‚ ÿÿÿÿÿHRMAJORZ
-CODE_SMELL
-j
-squid:S106M"9Replace this use of System.out or System.err by a logger.(ìØĞşÿÿÿÿH‘RMAJORZ
-CODE_SMELL
-j
-squid:S106P"9Replace this use of System.out or System.err by a logger.(ÑáÙúÿÿÿÿH’RMAJORZ
-CODE_SMELL
-j
-squid:S106S"9Replace this use of System.out or System.err by a logger.(¹ÅûÖşÿÿÿÿH“RMAJORZ
-CODE_SMELL
-e
-squid:S106V"9Replace this use of System.out or System.err by a logger.(Û…í­H”RMAJORZ
-CODE_SMELL
-j
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(şèğ€ùÿÿÿÿH•RMAJORZ
-CODE_SMELL
-e
-squid:S106w"9Replace this use of System.out or System.err by a logger.(°åÈíH–RMAJORZ
-CODE_SMELL
-Tsquid:S1125#"(Remove the literal "true" boolean value.(àÑ¿H—RMINORZ
-CODE_SMELL
-Zsquid:S1125,"(Remove the literal "true" boolean value.(ä¾ë•şÿÿÿÿH˜RMINORZ
-CODE_SMELL
-csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH™RINFOZ
-CODE_SMELL
-Gsquid:S1220""Move this file to a named package.HšRMINORZ
-CODE_SMELL
-Usquid:S1481d"(Remove this unused "con" local variable.(„§ò„H›RMINORZ
-CODE_SMELL
-asquid:S1172^"/Remove this unused method parameter "testCase".(Çíı›øÿÿÿÿHœRMAJORZ
-CODE_SMELL

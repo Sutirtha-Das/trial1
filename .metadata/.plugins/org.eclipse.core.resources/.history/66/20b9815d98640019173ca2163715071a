@@ -1,8 +1,0 @@
-package springapp01.springapp02.bean;
-
-public class FifthBean {
-	
-	private String name;
-	private String message;
-
-}
