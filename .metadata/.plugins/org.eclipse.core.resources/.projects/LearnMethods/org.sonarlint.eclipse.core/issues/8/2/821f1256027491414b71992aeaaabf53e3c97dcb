@@ -1,0 +1,65 @@
+
+lsquid:S1226n"?Introduce a new variable instead of reusing the parameter "hm".(ñûõÚ8½Î¶¨-H‹2RMINORZBUG
+ksquid:S1226a">Introduce a new variable instead of reusing the parameter "i".(ÌµĞ·8½Î¶¨-HŒ2RMINORZBUG
+™squid:S1149À"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(æœ†ªşÿÿÿÿ8½Î¶¨-H2RMAJORZ
+CODE_SMELL
+zsquid:UselessImportCheck"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8†ßŸ·¨-H2RMINORZ
+CODE_SMELL
+qsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8†ßŸ·¨-H2RMINORZ
+CODE_SMELL
+Vsquid:S2129¦"!Remove this "Integer" constructor(¼«¨º8½Î¶¨-H2RMAJORZ
+CODE_SMELL
+r
+squid:S106º"9Replace this use of System.out or System.err by a logger.(–í˜úÿÿÿÿ8½Î¶¨-H‘2RMAJORZ
+CODE_SMELL
+l
+squid:S106o"9Replace this use of System.out or System.err by a logger.(è„¶à8ä¡Í°†-H’2RMAJORZ
+CODE_SMELL
+msquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿH“2RMINORZ
+CODE_SMELL
+m
+squid:S106µ"9Replace this use of System.out or System.err by a logger.(×•œ²8½Î¶¨-H”2RMAJORZ
+CODE_SMELL
+r
+squid:S106«"9Replace this use of System.out or System.err by a logger.(îç¹Èúÿÿÿÿ8½Î¶¨-H•2RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H–2RMINORZ
+CODE_SMELL
+m
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(Ë´¿á8½Î¶¨-H—2RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(ÅÒ²º8½Î¶¨-H˜2RMAJORZ
+CODE_SMELL
+Zsquid:S2129`"!Remove this "Integer" constructor(ò¨îÓùÿÿÿÿ8½Î¶¨-H™2RMAJORZ
+CODE_SMELL
+Vsquid:S2129¤"!Remove this "Integer" constructor(ˆäĞ®8½Î¶¨-Hš2RMAJORZ
+CODE_SMELL
+vsquid:UselessImportCheck"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½ŸùÿÿÿÿH›2RMINORZ
+CODE_SMELL
+l
+squid:S106c"9Replace this use of System.out or System.err by a logger.(—²ê¹8½Î¶¨-Hœ2RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğÄ‚ŒøÿÿÿÿH2RMAJORZ
+CODE_SMELL
+r
+squid:S106Ì"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8½Î¶¨-H2RMAJORZ
+CODE_SMELL
+[squid:S2129¨"!Remove this "Integer" constructor(¯åèÓıÿÿÿÿ8½Î¶¨-HŸ2RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(¥¿Áàÿÿÿÿÿ8½Î¶¨-H 2RMAJORZ
+CODE_SMELL
+nsquid:UselessImportCheck	"4Remove this unused import 'java.util.stream.Stream'.(ó÷”H¡2RMINORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆö÷îH¢2RMINORZ
+CODE_SMELL
+…squid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(ÎúËÂıÿÿÿÿ8½Î¶¨-H£2RMAJORZ
+CODE_SMELL
+™squid:S1149¿"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(âæ©Ôúÿÿÿÿ8şı·±†-H¤2RMAJORZ
+CODE_SMELL
+r
+squid:S106ª"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿ8Ç¢Ï¶¨-H¥2RMAJORZ
+CODE_SMELL
+l
+squid:S106j"9Replace this use of System.out or System.err by a logger.(˜¶ãª8½Î¶¨-H¦2RMAJORZ
+CODE_SMELL

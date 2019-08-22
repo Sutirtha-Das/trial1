@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package com.List;
+
+import java.util.Arrays;
+import java.util.Collection;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class CustomArrayList<E> {
+	private static final int initialCapacity = 10;
+	private static final Object[] EMPTY_ELEMENT_DATA = {};
+	private int size;
+	
+	private transient Object[] customArrayListElementData;
+	
+	
+	public CustomArrayList(){
+		this.customArrayListElementData = new Object[initialCapacity];
+	}
+	
+	public CustomArrayList(int capacity){
+		if(capacity <0){
+			throw new IllegalArgumentException("Ilegal value for capacity");
+		}
+		this.customArrayListElementData = new Object[capacity];
+	}
+	
+	public CustomArrayList(Object[] c){
+		this.customArrayListElementData = c;
+	}
+	
+	public void ensureCapacity(){
+		int size = ((customArrayListElementData.length*3)/2) + 1;
+		customArrayListElementData = Arrays.copyOf(customArrayListElementData, size);
+	}
+}

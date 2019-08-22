@@ -1,0 +1,155 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+
+public class BinaryTree {
+	// Root of Binary Tree
+    Node root;
+    
+    // Constructors
+    BinaryTree(int key)
+    {
+    	root = new Node(key);
+    }
+ 
+    BinaryTree()
+    {
+    	
+        root = null;
+    }
+    
+    public BinaryTree(String file_name) throws IOException
+    {
+        
+    }
+    
+    public boolean member(Node root,Node element) {
+		if(root.key == element.key){
+			return Boolean.TRUE;
+		}
+		else if(root.left != null){
+			return member(root.left,element);
+		}else if(root.right != null){
+			return member(root.right, element);
+		}else{
+			return Boolean.FALSE;
+		}
+	}
+    
+    public Node find(Node root,Node element) {
+		if(root.key == element.key){
+			return root;
+		}
+		else if(root.left != null){
+			return find(root.left,element);
+		}else{
+			return find(root.right, element);
+		}
+	}
+    
+    public Node add(Node root,int key){
+    	Node node = new Node(key);
+    	if(key%2 == 0){
+    		root.left = node;
+    	}
+    	else{
+    		root.right = node;
+    	}
+    	return root;
+    }
+    
+    public void printDiameter(Node node){
+    	if(node.right == null && node.left == null){
+    		System.out.print(0+" ");
+    	}
+    	System.out.print(diameter(node) - 1+" ");
+    	if(node.left != null){
+    		printDiameter(node.left);
+    	}
+    	else if(node.right != null){
+    		printDiameter(node.right);
+    	}
+    }
+       
+    int diameter(Node root)
+    {
+        /* base case if tree is empty */
+        if (root == null)
+            return 0;
+ 
+        /* get the height of left and right sub trees */
+        int lheight = height(root.left);
+        int rheight = height(root.right);
+ 
+        /* get the diameter of left and right subtrees */
+        int ldiameter = diameter(root.left);
+        int rdiameter = diameter(root.right);
+ 
+        /* Return max of following three
+          1) Diameter of left subtree
+         2) Diameter of right subtree
+         3) Height of left subtree + height of right subtree + 1 */
+        return Math.max(lheight + rheight + 1,
+                        Math.max(ldiameter, rdiameter));
+ 
+    }
+    
+    int height(Node node)
+    {
+        /* base case tree is empty */
+        if (node == null)
+            return 0;
+ 
+        /* If tree is not empty then height = 1 + max of left
+           height and right heights */
+        return (1 + Math.max(height(node.left), height(node.right)));
+    }
+ 
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		 BufferedReader br = new BufferedReader(
+                 new InputStreamReader(System.in));
+		 System.out.println("Enter the number of nodes");
+		 int n = Integer.parseInt(br.readLine())-1;
+		 BinaryTree tree = new BinaryTree();
+		 
+		 
+	        /*create root*/
+		 while(n-- > 0){
+			 System.out.println("Enter the two nodes");
+			 StringTokenizer st = new StringTokenizer(br.readLine());
+			 int i = Integer.parseInt(st.nextToken());
+			 int j = Integer.parseInt(st.nextToken());
+			 if(tree.root == null){
+				 tree.root = new Node(i);
+				 tree.add(tree.root, j);
+			 }
+			 else if(tree.root.key == i){
+				 tree.add(tree.root, j);
+			 }
+			 else if(tree.root != null && tree.member(tree.root, new Node(i))){
+				 tree.add(tree.find(tree.root, new Node(i)),j);
+			}
+		 }
+		 tree.printDiameter(tree.root);
+		  
+	       	
+	}
+	
+}
+
+/* Class containing left and right child of current
+node and key value*/
+class Node
+{
+ int key;
+ Node left, right;
+
+ public Node(int item)
+ {
+     key = item;
+     left = right = null;
+ }
+}

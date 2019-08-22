@@ -1,0 +1,47 @@
+package singleton;
+
+import factory.AbstractFactory;
+import factory.FactoryProvider;
+import factory.Polygon;
+import factory.PolygonFactory;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Test for SingleTon
+		for(int i=0;i<3;i++){
+			Runnable r = () ->{
+				Singleton singleton = Singleton.getInstance();
+				System.out.println("Singleton:"+singleton);
+			};
+			new Thread(r).start();
+		}
+		
+		for(int i=0;i<3;i++){
+			Runnable r = () ->{
+				ThreadSafeSingleton singleton = ThreadSafeSingleton.getInstance();
+				System.out.println("ThreadSafeSingleton:"+singleton);
+			};
+			new Thread(r).start();
+		}
+		
+		for(int i=0;i<3;i++){
+			Runnable r = () ->{
+				BillPughSingleton singleton = BillPughSingleton.getInstance();
+				System.out.println("BillPughSingleton:"+singleton);
+			};
+			new Thread(r).start();
+		}
+		
+		
+		//Test for Factory Pattern
+		Polygon polygon = PolygonFactory.getPolygon(3);
+		System.out.println(polygon.getType());
+		
+		//TestForAbstractFactory
+		/*AbstractFactory<T, S> factory = new FactoryProvider(<1, "red">);*/
+		
+	}
+
+}

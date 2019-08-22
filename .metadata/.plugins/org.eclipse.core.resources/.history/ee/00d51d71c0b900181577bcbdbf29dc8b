@@ -1,0 +1,88 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+
+
+public class BestIndex {
+	
+	public static void main(String[] args) throws NumberFormatException, IOException{
+		BestIndex bi = new BestIndex();
+		/*BufferedReader br = new BufferedReader(
+                new InputStreamReader(System.in));
+		 System.out.println("Enter the number of elements");
+		 int n = Integer.parseInt(br.readLine());
+		 for(int i=0;i<n;i++){
+			 System.out.println("Enter each number");
+			 int num = Integer.parseInt(br.readLine());
+			 System.out.println(bi.calculateSingleDigitSum(num, 0));
+		 }*/
+		
+		String s1 = "cde";
+		String s2 = "abc";
+		bi.printNumOfDeletionsForAnagram(s1, s2);
+	}
+	
+	public int calculateSingleDigitSum(int n,int value){
+		
+		value += n%10;
+		n = n/10;
+		if(n>0){
+			return calculateSingleDigitSum(n, value);
+		}
+		else if(value > 9){
+			return calculateSingleDigitSum(value, 0);
+		}
+		
+		return value;
+	}
+	
+	public int findBestIndexValue(int arr[]){
+		int value = 0;
+		 for(int i =0;i<arr.length;i++){
+			 int temp = findMaximumSpecialValue(arr, i);
+			if(value < temp){
+				value = temp;
+			}
+			
+		 }
+		return value;
+	}
+	
+	public int findMaximumSpecialValue(int arr[],int firstIndex){
+		int value =0;
+		int loopCount=1;
+		for(int i=firstIndex;i<arr.length;i++){
+			value += calculateSum(arr,loopCount,i);
+			loopCount++;
+		}
+	return value;
+	}
+	
+	public int calculateSum(int arr[],int loopCount,int index){
+		int value =0;
+		for(int i=index;i<arr.length && loopCount >0;i++){
+			value += arr[i];
+			loopCount --;
+		}
+		return value;
+	}
+	
+	public void printNumOfDeletionsForAnagram(String str1,String str2){
+		int arr1[] = new int[256];
+        int arr2[] = new int[256];
+        int c = 0;
+        Arrays.fill(arr1,0);
+        Arrays.fill(arr2,0);
+        for(int j=0;j<str1.length();j++){
+            arr1[str1.charAt(j)]++;
+        }
+        for(int j=0;j<str2.length();j++){
+            arr2[str2.charAt(j)]++;
+        }
+        for(int j=0;j<256;j++){
+            c += (Math.abs(arr1[j]-arr2[j]));
+        }
+        System.out.println(c);
+	}
+}

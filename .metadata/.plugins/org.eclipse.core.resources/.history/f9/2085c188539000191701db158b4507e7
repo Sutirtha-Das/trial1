@@ -1,0 +1,21 @@
+package com.rabobank.com.rabobank.service;
+
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.rabobank.com.rabobank.config.RabobankConfig;
+import com.rabobank.com.rabobank.processor.RaboBankReportProcessor;
+
+@RunWith(SpringRunner.class)
+@WebMvcTest(value=RaboBankReportProcessor.class)
+public class RaboBankServiceTest {
+	@Autowired
+	private MockMvc mockmvc;
+	
+	@MockBean
+	RabobankConfig config; 
+}

@@ -1,0 +1,122 @@
+
+¶%squid:RedundantThrowsDeclarationCheck%"jRemove the declaration of thrown exception 'java.lang.NumberFormatException' which is a runtime exception.(ù×©úÿÿÿÿH RMINORZ
+CODE_SMELL
+¸%squid:RedundantThrowsDeclarationCheck%"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ù×©úÿÿÿÿH¡RMINORZ
+CODE_SMELL
+squid:ModifiersOrderCheck¸"EReorder the modifiers to comply with the Java Language Specification.(ŒÓ“´H¢RMINORZ
+CODE_SMELL
+jsquid:S1197'"8Move the array designator from the variable to the type.(•òÓúÿÿÿÿH£RMINORZ
+CODE_SMELL
+esquid:S1197a"8Move the array designator from the variable to the type.(šğ¨„H¤RMINORZ
+CODE_SMELL
+jsquid:S1197m"8Move the array designator from the variable to the type.(¾˜šöúÿÿÿÿH¥RMINORZ
+CODE_SMELL
+jsquid:S1197w"8Move the array designator from the variable to the type.(–éîäøÿÿÿÿH¦RMINORZ
+CODE_SMELL
+ksquid:S1197"8Move the array designator from the variable to the type.(¡ß»óûÿÿÿÿH§RMINORZ
+CODE_SMELL
+esquid:S1197‚"8Move the array designator from the variable to the type.(°Š¶H¨RMINORZ
+CODE_SMELL
+ksquid:S1197’"8Move the array designator from the variable to the type.(ĞÇ”¹ÿÿÿÿÿH©RMINORZ
+CODE_SMELL
+fsquid:S1197ç"8Move the array designator from the variable to the type.(çş£™HªRMINORZ
+CODE_SMELL
+ksquid:S1197ê"8Move the array designator from the variable to the type.(ıÕçùÿÿÿÿH«RMINORZ
+CODE_SMELL
+osquid:S1075·"ARefactor your code to get this URI from a customizable parameter.(¾ÃùH¬RMINORZ
+CODE_SMELL
+_squid:S2175Ã"3A "HashSet<String>" cannot contain a "StringBuffer"(ƒûüÿüÿÿÿÿH­RMAJORZBUG
+‡squid:S2293¼"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ×ëH®RMINORZ
+CODE_SMELL
+Œsquid:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶®†¬ıÿÿÿÿH¯RMINORZ
+CODE_SMELL
+Œsquid:S2293…"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚şˆ‹ûÿÿÿÿH°RMINORZ
+CODE_SMELL
+nsquid:S1994y">Move the update of "loopCount" into this loop's update clause.(³ú‡ÉH±RCRITICALZ
+CODE_SMELL
+zsquid:S1871¡"MThis branch's code block is the same as the block for the branch on line 156.(ŒòÌDH²RMAJORZ
+CODE_SMELL
+Isquid:S3626˜"Remove this redundant jump.(ûÁİ…H³RMINORZ
+CODE_SMELL
+Isquid:S3626°"Remove this redundant jump.(ûÁİ…H´RMINORZ
+CODE_SMELL
+usquid:S2095Ã"GUse try-with-resources or close this "CSVReader" in a "finally" clause.(ïéÛµûÿÿÿÿHµRBLOCKERZBUG
+qsquid:S2095¿"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ºè´øH¶RBLOCKERZBUG
+†
+squid:S135›"YReduce the total number of break and continue statements in this loop to use at most one.(ÿ±šH·RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(±¶¹ùÿÿÿÿH¸RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(ç²ùÿÿÿÿH¹RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(Óü–ãıÿÿÿÿHºRMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(í²¡ÜùÿÿÿÿH»RMAJORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLineÊ"<This block of commented-out lines of code should be removed.(½Šİ»H¼RMAJORZ
+CODE_SMELL
+›squid:S1319¸"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(ŒÓ“´H½RMINORZ
+CODE_SMELL
+œsquid:S1319¸"nThe type of the "hasSet" object should be an interface such as "Set" rather than the implementation "HashSet".(ŒÓ“´H¾RMINORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áß‡ÜH¿RMAJORZ
+CODE_SMELL
+f
+squid:S106—"9Replace this use of System.out or System.err by a logger.(Î€ø HÀRMAJORZ
+CODE_SMELL
+f
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(†™ñ‹HÁRMAJORZ
+CODE_SMELL
+e
+squid:S106Ù"9Replace this use of System.out or System.err by a logger.(¨™&HÂRMAJORZ
+CODE_SMELL
+k
+squid:S106Ú"9Replace this use of System.out or System.err by a logger.(Ò†ÚÚùÿÿÿÿHÃRMAJORZ
+CODE_SMELL
+k
+squid:S106İ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÄRMAJORZ
+CODE_SMELL
+k
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(ËùÛøıÿÿÿÿHÅRMAJORZ
+CODE_SMELL
+f
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(Æí¨HÆRMAJORZ
+CODE_SMELL
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜†…éHÇRMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(–‰˜ÿÿÿÿÿHÈRMAJORZ
+CODE_SMELL
+f
+squid:S106“"9Replace this use of System.out or System.err by a logger.(À°ÉÍHÉRMAJORZ
+CODE_SMELL
+k
+squid:S106³"9Replace this use of System.out or System.err by a logger.(‚Ë«şÿÿÿÿHÊRMAJORZ
+CODE_SMELL
+e
+squid:S106ô"9Replace this use of System.out or System.err by a logger.(­¦¦3HËRMAJORZ
+CODE_SMELL
+k
+squid:S106õ"9Replace this use of System.out or System.err by a logger.(Š‰ÀêÿÿÿÿÿHÌRMAJORZ
+CODE_SMELL
+¯squid:S2681ô"|This line will not be executed in a loop; only the first line of this 2-line block will be. The rest will execute only once.(âš¹¼øÿÿÿÿHÍRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HÎRMINORZ
+CODE_SMELL
+_squid:S1905 ",Remove this unnecessary cast to "BestIndex".(«¸óÿúÿÿÿÿHÏRMINORZ
+CODE_SMELL
+\squid:S1481¼".Remove this unused "tedVOList" local variable.(İ×ëHĞRMINORZ
+CODE_SMELL
+[squid:S1481ç"(Remove this unused "arr" local variable.(–– ûûÿÿÿÿHÑRMINORZ
+CODE_SMELL
+ksquid:S1854¼"=Remove this useless assignment to local variable "tedVOList".(İ×ëHÒRMAJORZ
+CODE_SMELL
+jsquid:S1854ç"7Remove this useless assignment to local variable "arr".(–– ûûÿÿÿÿHÓRMAJORZ
+CODE_SMELL
+Ysquid:S1148â"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÔRMINORZVULNERABILITY
+’squid:S1149Á"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ñ±¹ûÿÿÿÿHÕRMAJORZ
+CODE_SMELL
+lsquid:S1155†">Use isEmpty() to check whether the collection is empty or not.(“òŠHÖRMINORZ
+CODE_SMELL

@@ -1,0 +1,20 @@
+
+asquid:EmptyStatementUsageCheck%"Remove this empty statement.(Åñ­õşÿÿÿÿHŠRMINORZ
+CODE_SMELL
+^squid:S2175$"3A "HashSet<String>" cannot contain a "StringBuffer"(ãäÚÔşÿÿÿÿH‹RMAJORZBUG
+†squid:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(Äµ„…HŒRMINORZ
+CODE_SMELL
+Hsquid:S3626+"Remove this redundant jump.(ÉŠ©ƒHRMINORZ
+CODE_SMELL
+e
+squid:S1066"9Replace this use of System.out or System.err by a logger.(·ï”šHRMAJORZ
+CODE_SMELL
+j
+squid:S106@"9Replace this use of System.out or System.err by a logger.(Œä¨ıÿÿÿÿHRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„™Æ¼ÿÿÿÿÿH‘RMINORZ
+CODE_SMELL
+‘squid:S1149 "_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(“æ™„úÿÿÿÿH’RMAJORZ
+CODE_SMELL

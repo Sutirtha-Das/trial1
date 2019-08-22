@@ -1,0 +1,4 @@
+server.port=8090
+
+source.file.path=C:/Users/Loganathan/Desktop/TransactionDetails.csv
+output.file.path=C:/Users/Loganathan/Desktop/TransactionReport.csv

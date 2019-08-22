@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.List;
+
+/**
+ * @author Sutirtha
+ *
+ */
+public class CustomArrayList<E> {
+	private static final int initialCapacity = 10;
+	private static final Object[] EMPTY_ELEMENT_DATA = {};
+	private int size;
+	
+	private transient Object[] customArrayListElementData;
+	
+	
+	public CustomArrayList(){
+		this.customArrayListElementData = EMPTY_ELEMENT_DATA;
+	}
+	
+	public CustomArrayList(int capacity){
+		if(capacity <0){
+			throw new IllegalArgumentException("Ilegal value for capacity");
+		}
+		this.customArrayListElementData = new Object[capacity];
+	}
+
+}

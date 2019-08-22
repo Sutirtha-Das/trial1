@@ -1,0 +1,42 @@
+
+squid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(Åéð‘8“±ê× -HÏ*RMAJORZ
+CODE_SMELL
+l
+squid:S106%"9Replace this use of System.out or System.err by a logger.(æš¬ç8Ïî³× -H²)RMAJORZ
+CODE_SMELL
+l
+squid:S106("9Replace this use of System.out or System.err by a logger.(ç’¤™8¸–¼× -HÐ)RMAJORZ
+CODE_SMELL
+l
+squid:S1064"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ8ØÆè× -H½*RMAJORZ
+CODE_SMELL
+fsquid:S1481G"-Remove this unused "synchMap" local variable.(ƒ‰›Îøÿÿÿÿ8Ðì§Ø -Hå*RMINORZ
+CODE_SMELL
+l
+squid:S106<"9Replace this use of System.out or System.err by a logger.(÷æø‚8ÓÄ­× -Hž)RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH‚)RINFOZ
+CODE_SMELL
+l
+squid:S106E"9Replace this use of System.out or System.err by a logger.(Åéð‘8ÎþÐ× -Hˆ*RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(æš¬ç8ûÌ× -Hð)RMAJORZ
+CODE_SMELL
+usquid:S1854G"<Remove this useless assignment to local variable "synchMap".(ƒ‰›Îøÿÿÿÿ8Ðì§Ø -Hæ*RMAJORZ
+CODE_SMELL
+l
+squid:S106/"9Replace this use of System.out or System.err by a logger.(Áß‡Ü8õ¯´× -H¼)RMAJORZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™’»Hƒ)RMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹¥Ü8Þ‰²× -H¨)RMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÎÖë8š˜«× -H•)RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(æš¬ç8§üç× -H«*RMAJORZ
+CODE_SMELL
+l
+squid:S106""9Replace this use of System.out or System.err by a logger.(ùã¢”8Ö½§× -H‹)RMAJORZ
+CODE_SMELL
